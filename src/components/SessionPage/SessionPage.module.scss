@@ -1,0 +1,136 @@
+.session {
+    background-color: #fff;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.container {
+    max-width: 100rem;
+    margin: 0 auto;
+    width: 100%;
+    padding: 0 1rem;
+}
+
+.graphText {
+    display: flex;
+    flex-direction: column;
+}
+
+.graphLine {
+    max-width: 50rem;
+}
+
+.sessionFlex {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.textBlock {
+    flex: 1 0 40%;
+}
+
+.idStatusHeader {
+    display: flex;
+    align-items: center;
+
+    .uniqId {
+        margin-left: 0.5rem;
+        font-size: 1rem;
+        font-weight: 600;
+    }
+
+    .statusData {
+        display: flex;
+        align-items: center;
+
+        .status {
+            font-size: 1.125rem;
+            font-weight: bold;
+            color: green;
+        }
+
+        .statusIndicator {
+            background-color: green;
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            margin-right: 0.5rem;
+        }
+    }
+}
+
+.mainContent {
+    padding-top: 1.75rem;
+
+    .nameText {
+        font-size: 1.5rem;
+        font-weight: bold;
+        margin-top: 1rem;
+        color: #264b82;
+    }
+
+    .column {
+        margin-top: 2rem;
+
+        .row {
+            margin-top: 2rem;
+
+            .imgText {
+                margin-top: 10px;
+                display: flex;
+                align-items: center;
+            }
+
+            .labelText {
+                color: #000;
+                opacity: 0.5;
+            }
+
+            .textWarning {
+                font-style: 1rem;
+                color: #000;
+                font-weight: 600;
+                margin-left: 5px;
+            }
+
+            .textWarningE {
+                font-style: 1rem;
+                color: #000;
+                font-weight: 600;
+            }
+        }
+    }
+}
+
+
+.countdownBlock {
+    padding: 1.375rem;
+    background-color: rgb(231, 238, 247);
+    min-width: 41%;
+}
+
+.countdownInner {
+    background-color: #fff;
+    padding: 2rem 3rem;
+}
+
+.startedPrice {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.375rem 0.625rem;
+    background-color: #fff;
+}
+
+.priceText {
+    font-size: 1rem;
+    color: #000;
+    font-weight: normal;
+}
+
+.price {
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #000;
+}

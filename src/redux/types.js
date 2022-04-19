@@ -1,0 +1,2 @@
+export const ADD_EXTRA_FIELDS = "ADD_EXTRA_FIELDS"
+export const ADD_DATA_GRAPH = "ADD_DATA_GRAPH"

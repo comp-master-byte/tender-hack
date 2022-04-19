@@ -1,0 +1,28 @@
+.wrapper {
+    padding-top: 2rem;
+    background-color: rgb(231, 238, 247);
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 100rem;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.supplierContent {
+    margin-top: 1rem;
+
+    .title {
+        font-size: 2rem;
+        color: #000;
+        font-weight: normal;
+        text-align: center;
+    }
+}
+
+@media (max-width: 1789px) {
+    div.container {
+        padding: 0 1rem;
+    }
+}

@@ -1,0 +1,87 @@
+.session {
+    background-color: #fff;
+    color: #000;
+    border-radius: 0 !important;
+    min-height: 10rem;
+    width: 100%;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
+.container {
+    width: 100%;
+    max-width: 100rem;
+    margin: 0 auto;
+}
+
+.sessionContent {
+    padding: 2.5rem;
+}
+
+.statusHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.idStatusHeader {
+    display: flex;
+    align-items: center;
+
+    .uniqId {
+        margin-left: 0.5rem;
+        font-size: 1rem;
+        font-weight: 600;
+    }
+
+    .statusData {
+        display: flex;
+        align-items: center;
+
+        .status {
+            font-size: 1.125rem;
+            font-weight: bold;
+            color: green;
+        }
+
+        .statusIndicator {
+            background-color: green;
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            margin-right: 0.5rem;
+        }
+    }
+}
+
+.textContentBlock {
+    max-width: 80%;
+
+    .nameText {
+        font-size: 1.5rem;
+        font-weight: bold;
+        margin-top: 1rem;
+    }
+
+    .dataText {
+        color: #c3c3c3;
+        font-size: 1rem;
+        font-weight: 400;
+        margin-top: 1rem;
+    }
+}
+
+.footer {
+    background-color: rgb(245, 248, 252);
+    padding: 1rem 2.5rem;
+
+    .footerContent {
+        display: flex;
+    }
+
+    .locText {
+        display: flex;
+        align-items: center;
+        margin-right: 2rem;
+    }
+}

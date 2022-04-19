@@ -1,0 +1,25 @@
+.countdown {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.block {
+    color: rgb(38, 75, 130);
+    background-color: rgb(231, 238, 247);
+    font-size: 1.875rem;
+    border-radius: 6px;
+    min-height: 5rem;
+    height: 5rem;
+    width: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0.5rem;
+}
+
+
+.waiting {
+    height: 50vh;
+}
